@@ -31,15 +31,31 @@ That friend has been briefed in advance and will give a verbal clue, tell a stor
 
 # qué necesito - logistica:
 
-- pensar en 10 lugares significativos para Luli en Berlín
-- buscar fotos de ella en ese lugar
+- pensar en 10 lugares significativos para Luli en Berlín - done
+- buscar fotos de cada lugar - done 
 - crear los código QR con las fotos de esos lugares: en esta pagina se pueden subir templates para hacer los codigos qr https://qrart.app/
 - pensar preguntas, alrededor de 40 para que ella vaya desbloqueando en cada pista el zoom out. Serian 4 por imagen
 - pensar en el texto de la presentación y el regalo final
 - pensar a quién puede llamar para que le diga dónde está la próxima pista: acá estaria bueno que no tenga agendada a la persona y que tenga que adivinar a quién está llamando y si no sabe  tiene que ir haciendo preguntas para saber quién habla
 
+-   # Lugares en orden:
+-     1. Schmittz bar https://maps.app.goo.gl/GJmgLyD5SK85Ph3G9
+-     2. Zosch bar https://maps.app.goo.gl/HnTCKASPmu8TPMaQ7
+-     3. Monbijou Park https://maps.app.goo.gl/w6PdQbJC3KNefJgB8
+-     4. Domo https://maps.app.goo.gl/9FJ1sfhv6YkLSSsm9
+-     5. Unter den linden U station https://maps.app.goo.gl/vAgXMBGm1jHtdMJp8
+-     6. Nefis https://maps.app.goo.gl/PJWB1anV6CSuf67j9
+-     7. Späti https://maps.app.goo.gl/sseP5PgiZiCxv5Sw9
+-     8. Muro de Berlin https://maps.app.goo.gl/eNZafKkYXPGuT1aY7
+-     9. Tv Tower https://maps.app.goo.gl/wDV9439s3dZZQCPL6
+-     10. Wadzeckstrasse o Casa https://maps.app.goo.gl/JKspwuTC2Z5dLbio8
+- 
+
 # AGREGAR ****
 
+- Ya que va a ser una foto general del lugar la idea seria agregar una descripcion, cuando acierte dónde es, sobre donde exactamente puede buscar el codigo qr.
+- Agregar una caja de texto donde ella escriba el nombre del lugar, por ejemplo "tv tower" y si es correcto que aparezca una descripcion de dónde buscar exactamente el codigo qr. De esta manera si logra decifrar la imagen al segundo intento, es decir al segundo zoom out ella en cualquier momento puede escribir el nombre del lugrar sin necesidad de usar los 4 zoom out...
 - Cuando llega al lugar si no se da cuenta donde esta el codigo QR, puede responder otra pregunta y darle una pista de donde buscar
 - Averiguar como guardar en cache la sesion si pasa mucho tiempo inactiva
-  
+- puedo usar digitalOcean para subir mis imagenes y que tengan una URL para luego poder crear el codigo qr con qrart.app con esa url ??
+
