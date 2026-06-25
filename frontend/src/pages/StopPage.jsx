@@ -110,11 +110,13 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
           </button>
         )}
 
-        <HintReveal
-          stopIndex={stopIndex}
-          alreadyRevealed={hintRevealed}
-          onReveal={() => onRevealHint(stopIndex)}
-        />
+        {isFullyZoomed && (
+          <HintReveal
+            stopIndex={stopIndex}
+            alreadyRevealed={hintRevealed}
+            onReveal={() => onRevealHint(stopIndex)}
+          />
+        )}
       </div>
 
       {activeQuestion && (

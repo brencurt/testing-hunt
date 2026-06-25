@@ -152,5 +152,14 @@ export function useGameSession() {
     [session.stopProgress]
   );
 
-  return { session, unlockStop, incrementZoom, revealFull, revealHint, startGame, resetGame, getStopProgress };
+  // Called when the puzzle QR code ("cofre") is scanned — marks puzzle as unlocked
+  const unlockPuzzle = useCallback(() => {
+    setSession((prev) => {
+      const next = { ...prev, puzzleUnlocked: true, lastUpdated: new Date().toISOString() };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+  }, []);
+
+  return { session, unlockStop, unlockPuzzle, incrementZoom, revealFull, revealHint, startGame, resetGame, getStopProgress };
 }

@@ -16,7 +16,7 @@ export default function App() {
   const [meta, setMeta] = useState(null);
   const [view, setView] = useState('welcome'); // welcome | stop | scan | puzzle_intro | puzzle | win
   const [winMessage, setWinMessage] = useState('');
-  const { session, startGame, unlockStop, incrementZoom, revealFull, revealHint, resetGame, getStopProgress } = useGameSession();
+  const { session, startGame, unlockStop, unlockPuzzle, incrementZoom, revealFull, revealHint, resetGame, getStopProgress } = useGameSession();
 
   // Load game meta on mount
   useEffect(() => {
@@ -25,13 +25,10 @@ export default function App() {
 
   // Restore session: if player already started, go straight to their current stop
   useEffect(() => {
-    if (session.currentStopIndex !== null) {
-      // Stop 9 is the final puzzle — restore to puzzle intro rather than stop
-      if (session.currentStopIndex === 9) {
-        setView('puzzle_intro');
-      } else {
-        setView('stop');
-      }
+    if (session.puzzleUnlocked) {
+      setView('puzzle_intro');
+    } else if (session.currentStopIndex !== null) {
+      setView('stop');
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -41,11 +38,12 @@ export default function App() {
   }
 
   function handleQRSuccess(result) {
-    // result = { valid: true, unlocksStop: number, stopType: string }
-    unlockStop(result.unlocksStop);
+    // result = { valid: true, unlocksStop: number|null, stopType: string }
     if (result.stopType === 'final_puzzle') {
+      unlockPuzzle();
       setView('puzzle_intro');
     } else {
+      unlockStop(result.unlocksStop);
       setView('stop');
     }
   }

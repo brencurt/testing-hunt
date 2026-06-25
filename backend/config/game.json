@@ -156,5 +156,16 @@
         { "id": "q09_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'quellen'", "answer": "gequollen", "answerAlternatives": [] }
       ]
     }
-  ]
+  ],
+  "finalPuzzle": {
+    "puzzleQrCode": "stop00",
+    "slots": [
+      { "clue": "Toca un instrumento",           "friend": "Sabri",  "photo": "Sabri.png"  },
+      { "clue": "Vive en Prenzlauer Berg",        "friend": "Georgi", "photo": "Georgi.png" },
+      { "clue": "Es de Boca",                     "friend": "Panky",  "photo": "Panky.png"  },
+      { "clue": "Tiene al menos un B2 de alemán", "friend": "Ceci",   "photo": "Ceci.png"   },
+      { "clue": "Cuando juega, gana",             "friend": "Luz",    "photo": "Luz.png"    },
+      { "clue": "Le gusta mirar el mundial",      "friend": "Anto",   "photo": "Anto.png"   }
+    ]
+  }
 }

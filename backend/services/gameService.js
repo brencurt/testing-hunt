@@ -62,7 +62,18 @@ function validateQRCode(qrCode) {
     return { valid: false };
   }
 
-  const stop = config.stops.find(s => s.qrCode === qrCode.trim());
+  const trimmed = qrCode.trim();
+
+  // Check if it's the special puzzle QR code
+  if (config.finalPuzzle?.puzzleQrCode && trimmed === config.finalPuzzle.puzzleQrCode) {
+    return {
+      valid: true,
+      unlocksStop: null,
+      stopType: 'final_puzzle',
+    };
+  }
+
+  const stop = config.stops.find(s => s.qrCode === trimmed);
   if (!stop) {
     return { valid: false };
   }
