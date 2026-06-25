@@ -1,0 +1,42 @@
+.hint-btn {
+  background: none;
+  border: 1.5px dashed #aaa;
+  color: #666;
+  font-size: 0.85rem;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.hint-btn:hover:not(:disabled) {
+  border-color: #6c47ff;
+  color: #6c47ff;
+}
+
+.hint-btn:disabled {
+  opacity: 0.5;
+}
+
+.hint-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff8e1;
+  border: 1.5px solid #f6c90e;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.hint-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.hint-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #5a4000;
+  line-height: 1.5;
+}

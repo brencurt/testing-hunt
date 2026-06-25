@@ -1,0 +1,44 @@
+.win-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.win-confetti {
+  font-size: 3rem;
+  animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from { transform: scale(1); }
+  to   { transform: scale(1.15); }
+}
+
+.win-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+.win-message {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.win-restart-btn {
+  background: none;
+  border: 1.5px solid #e0e0e0;
+  color: #888;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 20px;
+}

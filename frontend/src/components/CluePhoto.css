@@ -1,0 +1,26 @@
+.clue-photo-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #1a1a2e;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.clue-photo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center center;
+  /* Smooth camera-pull-back feel */
+  transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  user-select: none;
+}
+
+/* Zoom levels: 0 = most zoomed in (abstract), 4 = full photo */
+.zoom-level-0 { transform: scale(15); }
+.zoom-level-1 { transform: scale(12); }
+.zoom-level-2 { transform: scale(8); }
+.zoom-level-3 { transform: scale(3); }
+.zoom-level-4 { transform: scale(1); }

@@ -1,0 +1,84 @@
+.qr-scanner-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.qr-scanner-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.qr-cancel-btn {
+  background: none;
+  border: none;
+  font-size: 0.95rem;
+  color: #6c47ff;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.qr-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+/* Override html5-qrcode default styles to match our design */
+#qr-reader {
+  border: none !important;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+#qr-reader video {
+  border-radius: 16px;
+}
+
+/* Hide the verbose html5-qrcode status text */
+#qr-reader__status_span {
+  display: none;
+}
+
+#qr-reader__dashboard_section_csr button {
+  background: #6c47ff !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 0.95rem !important;
+  cursor: pointer !important;
+}
+
+.qr-reader {
+  min-height: 300px;
+}
+
+.qr-status {
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.qr-status--validating {
+  background: #f0ecff;
+  color: #6c47ff;
+}
+
+.qr-status--error {
+  background: #fff0f0;
+  color: #e53e3e;
+}
+
+.qr-hint {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0;
+}

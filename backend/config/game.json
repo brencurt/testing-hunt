@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "playerName": "Luli",
+    "birthdayYear": 2026,
+    "totalStops": 10,
+    "finalMessage": "¡Feliz cumpleaños Luli! Tu sorpresa te espera aquí..."
+  },
+  "stops": [
+    {
+      "stopIndex": 0,
+      "type": "photo",
+      "locationName": "Schmittz bar",
+      "internalNotes": "",
+      "qrCode": "stop00",
+      "imageFile": "stop00.png",
+      "hint": "",
+      "questions": [
+        { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q00_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q00_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 1,
+      "type": "photo",
+      "locationName": "Zosch bar",
+      "internalNotes": "",
+      "qrCode": "stop01",
+      "imageFile": "stop01.png",
+      "hint": "",
+      "questions": [
+        { "id": "q01_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q01_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q01_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q01_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 2,
+      "type": "photo",
+      "locationName": "Monbijou Park",
+      "internalNotes": "",
+      "qrCode": "stop02",
+      "imageFile": "stop02.png",
+      "hint": "",
+      "questions": [
+        { "id": "q02_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q02_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q02_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q02_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 3,
+      "type": "photo",
+      "locationName": "Domo",
+      "internalNotes": "",
+      "qrCode": "stop03",
+      "imageFile": "stop03.png",
+      "hint": "",
+      "questions": [
+        { "id": "q03_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q03_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q03_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q03_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 4,
+      "type": "photo",
+      "locationName": "Unter den Linden U station",
+      "internalNotes": "",
+      "qrCode": "stop04",
+      "imageFile": "stop04.png",
+      "hint": "",
+      "questions": [
+        { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q04_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q04_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q04_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 5,
+      "type": "photo",
+      "locationName": "Nefis",
+      "internalNotes": "",
+      "qrCode": "stop05",
+      "imageFile": "stop05.png",
+      "hint": "",
+      "questions": [
+        { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q05_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q05_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q05_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 6,
+      "type": "photo",
+      "locationName": "Späti",
+      "internalNotes": "",
+      "qrCode": "stop06",
+      "imageFile": "stop06.png",
+      "hint": "",
+      "questions": [
+        { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q06_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q06_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q06_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 7,
+      "type": "photo",
+      "locationName": "Muro de Berlín",
+      "internalNotes": "",
+      "qrCode": "stop07",
+      "imageFile": "stop07.png",
+      "hint": "",
+      "questions": [
+        { "id": "q07_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q07_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q07_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q07_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 8,
+      "type": "photo",
+      "locationName": "TV Tower",
+      "internalNotes": "",
+      "qrCode": "stop08",
+      "imageFile": "stop08.png",
+      "hint": "",
+      "questions": [
+        { "id": "q08_01", "zoomLevelUnlocked": 1, "text": "Pregunta 1", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q08_02", "zoomLevelUnlocked": 2, "text": "Pregunta 2", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q08_03", "zoomLevelUnlocked": 3, "text": "Pregunta 3", "answer": "respuesta", "answerAlternatives": [] },
+        { "id": "q08_04", "zoomLevelUnlocked": 4, "text": "Pregunta 4", "answer": "respuesta", "answerAlternatives": [] }
+      ]
+    },
+    {
+      "stopIndex": 9,
+      "type": "final_puzzle",
+      "locationName": "Wadzeckstrasse / Casa",
+      "internalNotes": "",
+      "qrCode": "stop09",
+      "imageFile": "stop09.png",
+      "hint": "",
+      "questions": []
+    }
+  ],
+  "finalPuzzle": {
+    "slots": [
+      { "clue": "Toca un instrumento",             "friend": "Sabri",  "photo": "Sabri.png"  },
+      { "clue": "Vive en Prenzlauer Berg",          "friend": "Georgi", "photo": "Georgi.png" },
+      { "clue": "Es de Boca",                       "friend": "Panky",  "photo": "Panky.png"  },
+      { "clue": "Tiene al menos un B2 de alemán",   "friend": "Ceci",   "photo": "Ceci.png"   },
+      { "clue": "Cuando juega, gana",               "friend": "Luz",    "photo": "Luz.png"    },
+      { "clue": "Le gusta mirar el mundial",        "friend": "Anto",   "photo": "Anto.png"   }
+    ]
+  }
+}
