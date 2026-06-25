@@ -5,37 +5,33 @@ export default function WelcomePage({ onStart, playerName }) {
     <div className="welcome-page">
       <div className="welcome-top">
         <div className="welcome-emoji">🎂</div>
-        <h1 className="welcome-title">¡Feliz cumpleaños,<br />{playerName}!</h1>
+        <h1 className="welcome-title">¿Estás lista para salir a buscar tu regalo de cumpleaños?</h1>
         <p className="welcome-subtitle">
-          Tu regalo de cumpleaños es una caza del tesoro por Berlín.
-          Tienes que ir a 10 lugares especiales... pero tendrás que descubrir cuáles son.
+          Vamos a ir a algunos lugares de Berlín bastante simbólicos para vos (o para las dos),
+          pero para llegar vas a tener que afinar tu ojo y reconocer las paradas.
         </p>
       </div>
 
       <div className="welcome-rules">
         <div className="rule">
           <span className="rule-icon">🔍</span>
-          <p>Cada pista es una foto muy ampliada. ¿Reconoces el lugar?</p>
+          <p>Cada pista es una foto muy ampliada. ¿Reconocés el lugar?</p>
         </div>
         <div className="rule">
           <span className="rule-icon">❓</span>
-          <p>Si no lo reconoces, responde preguntas para hacer zoom out poco a poco.</p>
+          <p>Si no lo reconocés, respondé preguntas para hacer zoom out poco a poco.</p>
         </div>
         <div className="rule">
           <span className="rule-icon">📱</span>
-          <p>Cuando llegues al lugar, escanea el código QR para desbloquear la siguiente pista.</p>
-        </div>
-        <div className="rule">
-          <span className="rule-icon">📞</span>
-          <p>Algunas paradas son llamadas sorpresa. ¿Sabrás quién te llama?</p>
+          <p>Cuando llegués al lugar, escaneá el código QR para desbloquear la siguiente pista.</p>
         </div>
       </div>
 
       <button className="welcome-start-btn" onClick={onStart}>
-        Empezar la caza 🗺️
+        ¡Empezar!
       </button>
 
-      <p className="welcome-note">Tu progreso se guarda automáticamente si cierras la app.</p>
+      <p className="welcome-note">Tu progreso se guarda automáticamente si cerrás la app.</p>
     </div>
   );
 }

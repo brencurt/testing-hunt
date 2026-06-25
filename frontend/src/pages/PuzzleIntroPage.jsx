@@ -3,16 +3,25 @@ import './PuzzleIntroPage.css';
 export default function PuzzleIntroPage({ onStart }) {
   return (
     <div className="puzzle-intro">
-      <div className="puzzle-intro-icon">🔐</div>
-      <h1 className="puzzle-intro-title">¡Última parada!</h1>
+      <div className="chest-wrapper">
+        <div className="chest-body">
+          <div className="chest-lid" />
+          <div className="chest-lock">🔒</div>
+        </div>
+      </div>
+
       <p className="puzzle-intro-text">
-        Tus amigas tienen la clave para desbloquear el mensaje final.
+        Estás casi al final del recorrido, te falta resolver un último desafío.
       </p>
       <p className="puzzle-intro-text">
-        Leé cada pista con atención y sacales una foto en el orden correcto.
+        En casa vas a encontrar el cofre, pero ¿la llave?
       </p>
+      <p className="puzzle-intro-text">
+        Cuando tengas el cofre en tus manos presioná el botón:
+      </p>
+
       <button className="puzzle-intro-btn" onClick={onStart}>
-        Iniciar
+        ¿Dónde está la llave?
       </button>
     </div>
   );

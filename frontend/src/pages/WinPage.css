@@ -20,25 +20,35 @@
 .win-title {
   font-size: 2.2rem;
   font-weight: 800;
-  color: #1a1a2e;
+  color: #8b6ddb;
   margin: 0;
 }
 
 .win-message {
-  font-size: 1.1rem;
-  color: #444;
-  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #5a4a66;
+  line-height: 1.8;
   margin: 0;
   white-space: pre-line;
+  background: #f0eaf8;
+  border-radius: 16px;
+  padding: 20px;
+  border: 1px solid #ddd0f0;
 }
 
 .win-restart-btn {
   background: none;
-  border: 1.5px solid #e0e0e0;
-  color: #888;
+  border: 1.5px solid #c4b0d8;
+  color: #b0a0ba;
   border-radius: 12px;
   padding: 12px 24px;
   font-size: 0.9rem;
   cursor: pointer;
   margin-top: 20px;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.win-restart-btn:hover {
+  border-color: #9a7355;
+  color: #9a7355;
 }

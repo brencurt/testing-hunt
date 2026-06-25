@@ -1,8 +1,8 @@
 .fp-shell {
   min-height: 100vh;
   padding: 1.5rem 1rem 5rem;
-  background: #0a0a0a;
-  color: #f0f0f0;
+  background: #f5f0e8;
+  color: #2d2233;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,23 +12,16 @@
   justify-content: center;
   text-align: center;
   gap: 0.5rem;
-  color: #f88;
-}
-
-.fp-title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin: 0 0 0.4rem;
-  color: #fff;
+  color: #c05050;
 }
 
 .fp-subtitle {
   font-size: 0.9rem;
-  color: #aaa;
-  margin: 0 0 1.5rem;
+  color: #7a6a85;
+  margin: 0 0 1.2rem;
   text-align: center;
-  max-width: 340px;
-  line-height: 1.5;
+  max-width: 360px;
+  line-height: 1.6;
 }
 
 /* ── Loading ─────────────────────────────────────────────────── */
@@ -38,15 +31,15 @@
   align-items: center;
   gap: 1rem;
   margin-top: 3rem;
-  color: #999;
+  color: #9a8aaa;
   font-size: 0.9rem;
 }
 
 .fp-spinner {
   width: 40px;
   height: 40px;
-  border: 4px solid #333;
-  border-top-color: #f5c842;
+  border: 4px solid #ddd0f0;
+  border-top-color: #8b6ddb;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -59,84 +52,76 @@
 .fp-slots {
   width: 100%;
   max-width: 420px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .fp-slot {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.9rem;
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
-  border-radius: 12px;
-  padding: 0.85rem 1rem;
-  transition: border-color 0.2s;
-}
-
-.fp-slot--done {
-  border-color: #3a7a3a;
-  background: #0e1f0e;
+  gap: 0.5rem;
 }
 
 .fp-slot-num {
-  font-size: 1.2rem;
   font-weight: 700;
-  color: #f5c842;
-  min-width: 1.5rem;
-  text-align: center;
-}
-
-.fp-slot-body {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  color: #8b6ddb;
 }
 
 .fp-slot-clue {
   margin: 0;
-  font-size: 0.95rem;
-  color: #eee;
+  font-size: 0.85rem;
+  color: #5a4a66;
   line-height: 1.3;
+  text-align: center;
+  min-height: 2.5rem;
 }
 
-.fp-slot-result {
+/* Photo square */
+.fp-photo-box {
+  width: 100%;
+  aspect-ratio: 1;
+  background: #fdfaff;
+  border: 2px dashed #c4b0d8;
+  border-radius: 12px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.6rem;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.3rem;
+  transition: border-color 0.2s, background 0.2s;
 }
 
-.fp-slot-name {
-  font-size: 0.9rem;
+.fp-photo-box:active {
+  background: #f0eaf8;
+}
+
+.fp-photo-box--filled {
+  border: 2px solid #6aaa77;
+  background: #edf7ef;
+}
+
+.fp-photo-icon {
+  font-size: 2rem;
+}
+
+.fp-photo-check {
+  font-size: 1.4rem;
+  color: #6aaa77;
+}
+
+.fp-photo-name {
+  font-size: 0.85rem;
   font-weight: 600;
-  color: #7dda7d;
+  color: #4a8a57;
 }
 
-.fp-slot-clear {
-  background: none;
-  border: none;
-  color: #666;
-  cursor: pointer;
-  font-size: 0.85rem;
-  padding: 2px 4px;
-  line-height: 1;
-}
-
-.fp-slot-camera {
-  background: #2a2a2a;
-  border: 1px solid #444;
-  border-radius: 8px;
-  color: #ccc;
-  cursor: pointer;
-  font-size: 0.85rem;
-  padding: 0.35rem 0.8rem;
-  width: fit-content;
-}
-
-.fp-slot-camera:active {
-  background: #333;
+.fp-photo-clear {
+  font-size: 0.7rem;
+  color: #b0a0ba;
+  margin-top: 0.2rem;
 }
 
 /* ── Verify / Wrong order ────────────────────────────────────── */
@@ -145,11 +130,16 @@
   padding: 0.9rem 2.5rem;
   font-size: 1.05rem;
   font-weight: 700;
-  background: #f5c842;
-  color: #111;
+  background: #8b6ddb;
+  color: #fff;
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fp-verify-btn:hover {
+  background: #7558c4;
 }
 
 .fp-verify-btn:disabled {
@@ -167,26 +157,36 @@
 }
 
 .fp-wrong p {
-  color: #f88;
+  color: #a03030;
   font-weight: 600;
   margin: 0;
+  background: #fff0f0;
+  border: 1px solid #f0b8b8;
+  border-radius: 10px;
+  padding: 10px 16px;
 }
 
 .fp-retry-btn {
   padding: 0.7rem 1.8rem;
-  background: #333;
-  border: 1px solid #555;
+  background: #faf5ef;
+  border: 1.5px solid #d4b898;
   border-radius: 10px;
-  color: #eee;
+  color: #9a7355;
   cursor: pointer;
   font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.fp-retry-btn:hover {
+  background: #f0e8dc;
 }
 
 /* ── Camera modal ────────────────────────────────────────────── */
 .fp-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(45, 34, 51, 0.85);
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -194,7 +194,7 @@
 }
 
 .fp-modal {
-  background: #111;
+  background: #2d2233;
   border-radius: 20px 20px 0 0;
   padding: 1.2rem 1rem 2rem;
   width: 100%;
@@ -208,7 +208,7 @@
 .fp-modal-title {
   font-size: 1rem;
   font-weight: 600;
-  color: #f5c842;
+  color: #c4b0f5;
   margin: 0;
   text-align: center;
 }
@@ -230,7 +230,7 @@
 
 .fp-recognize-msg {
   font-size: 0.9rem;
-  color: #f0a040;
+  color: #d4b898;
   margin: 0;
   text-align: center;
 }
@@ -246,9 +246,9 @@
   flex: 1;
   padding: 0.6rem 0.8rem;
   border-radius: 8px;
-  border: 1px solid #444;
-  background: #1a1a1a;
-  color: #fff;
+  border: 1px solid #5a4a66;
+  background: #3d3048;
+  color: #f0eaf8;
   font-size: 0.95rem;
 }
 
@@ -256,8 +256,8 @@
   padding: 0.6rem 1rem;
   border-radius: 8px;
   border: none;
-  background: #f5c842;
-  color: #111;
+  background: #8b6ddb;
+  color: #fff;
   font-weight: 700;
   cursor: pointer;
   font-size: 0.9rem;
@@ -274,11 +274,16 @@
   padding: 0.8rem 1.8rem;
   font-size: 1rem;
   font-weight: 700;
-  background: #f5c842;
-  color: #111;
+  background: #8b6ddb;
+  color: #fff;
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fp-capture-btn:hover {
+  background: #7558c4;
 }
 
 .fp-capture-btn:disabled {
@@ -289,10 +294,10 @@
 .fp-cancel-btn {
   padding: 0.8rem 1.4rem;
   font-size: 0.95rem;
-  background: #222;
-  border: 1px solid #444;
+  background: #3d3048;
+  border: 1px solid #5a4a66;
   border-radius: 12px;
-  color: #bbb;
+  color: #c4b0d8;
   cursor: pointer;
 }
 
@@ -304,8 +309,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: #1a1a2e;
-  border: 1px solid #444;
+  background: #f0eaf8;
+  border: 1px solid #c4b0d8;
   border-radius: 10px;
   padding: 0.4rem 0.7rem;
   z-index: 50;
@@ -313,19 +318,19 @@
 
 .fp-dev-label {
   font-size: 0.75rem;
-  color: #888;
+  color: #9a8aaa;
 }
 
 .fp-dev-btn {
   font-size: 0.75rem;
   padding: 0.25rem 0.6rem;
   border-radius: 6px;
-  border: 1px solid #555;
-  background: #2a2a3e;
-  color: #ccc;
+  border: 1px solid #c4b0d8;
+  background: #fdfaff;
+  color: #7a6a85;
   cursor: pointer;
 }
 
 .fp-dev-btn:hover {
-  background: #3a3a5e;
+  background: #f0eaf8;
 }

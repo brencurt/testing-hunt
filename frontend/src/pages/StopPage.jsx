@@ -64,7 +64,7 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
           }}
         >
           <label className="location-guess-label">
-            ¿Ya reconoces el lugar? Escríbelo:
+            Si reconocés el lugar, escribilo:
           </label>
           <div className="location-guess-row">
             <input
@@ -78,27 +78,29 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
             <button className="location-guess-btn" type="submit">→</button>
           </div>
           {locationStatus === 'wrong' && (
-            <p className="location-guess-msg location-guess-msg--wrong">Ese no es... ¡sigue mirando!</p>
+            <p className="location-guess-msg location-guess-msg--wrong">Ese no es... ¡seguí mirando!</p>
           )}
         </form>
       )}
 
-      {locationStatus === 'correct' && isFullyZoomed && (
-        <p className="location-guess-msg location-guess-msg--correct">
-          ¡Exacto! Ahora ve al lugar y escanea el código QR.
-        </p>
-      )}
 
       <div className="stop-actions">
         {!isFullyZoomed && nextQuestion && (
-          <button className="zoom-out-btn" onClick={() => setActiveQuestion(nextQuestion)}>
-            🔍 Hacer zoom out — responder pregunta
-          </button>
+          <div className="zoom-out-section">
+            <p className="zoom-out-hint">
+              Si no reconocés el lugar podés hacer zoom out de la imagen,
+              pero para eso vas a tener que responder una pregunta.
+              Si estás de acuerdo presioná el botón:
+            </p>
+            <button className="zoom-out-btn" onClick={() => setActiveQuestion(nextQuestion)}>
+              Hacer zoom out
+            </button>
+          </div>
         )}
 
         {isFullyZoomed && (
           <p className="stop-full-zoom-msg">
-            ¡Foto completa! Ve a ese lugar y escanea el código QR.
+            ¡Exacto! Ahora ve al lugar y escanea el código QR.
           </p>
         )}
 

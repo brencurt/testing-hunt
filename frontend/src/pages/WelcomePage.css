@@ -15,16 +15,16 @@
 }
 
 .welcome-title {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 800;
-  color: #1a1a2e;
+  color: #2d2233;
   margin: 0 0 12px;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .welcome-subtitle {
   font-size: 0.95rem;
-  color: #555;
+  color: #7a6a85;
   line-height: 1.6;
   margin: 0;
 }
@@ -33,9 +33,10 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: #f8f8ff;
+  background: #f0eaf8;
   border-radius: 16px;
   padding: 20px;
+  border: 1px solid #ddd0f0;
 }
 
 .rule {
@@ -53,12 +54,12 @@
 .rule p {
   margin: 0;
   font-size: 0.9rem;
-  color: #444;
+  color: #5a4a66;
   line-height: 1.5;
 }
 
 .welcome-start-btn {
-  background: #6c47ff;
+  background: #8b6ddb;
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -71,7 +72,7 @@
 }
 
 .welcome-start-btn:hover {
-  background: #5533e0;
+  background: #7558c4;
 }
 
 .welcome-start-btn:active {
@@ -81,6 +82,6 @@
 .welcome-note {
   text-align: center;
   font-size: 0.78rem;
-  color: #aaa;
+  color: #b0a0ba;
   margin: 0;
 }

@@ -276,9 +276,9 @@ export default function FinalPuzzlePage({ onWin }) {
 
   return (
     <div className="fp-shell">
-      <h1 className="fp-title">El puzzle final</h1>
       <p className="fp-subtitle">
-        Leé cada pista y sacale una foto a la amiga que corresponde, en orden.
+        Para encontrar la llave deberás completar los siguientes casilleros con las caras de tus amigas en orden.
+        Sacá una foto de cada una de ellas según corresponda a cada descripción.
       </p>
 
       {isLoading && (
@@ -292,20 +292,20 @@ export default function FinalPuzzlePage({ onWin }) {
         <div className="fp-slots">
           {slots.map((slot, i) => (
             <div key={i} className={`fp-slot ${slot.capturedName ? 'fp-slot--done' : ''}`}>
-              <div className="fp-slot-num">{i + 1}</div>
-              <div className="fp-slot-body">
-                <p className="fp-slot-clue">{slot.clue}</p>
-                {slot.capturedName ? (
-                  <div className="fp-slot-result">
-                    <span className="fp-slot-name">✓ {slot.capturedName}</span>
-                    <button className="fp-slot-clear" onClick={() => clearSlot(i)}>✕</button>
-                  </div>
-                ) : (
-                  <button className="fp-slot-camera" onClick={() => openCamera(i)}>
-                    📷 Sacar foto
-                  </button>
-                )}
-              </div>
+              <p className="fp-slot-clue">
+                <span className="fp-slot-num">{i + 1}.</span> {slot.clue}
+              </p>
+              {slot.capturedName ? (
+                <button className="fp-photo-box fp-photo-box--filled" onClick={() => clearSlot(i)}>
+                  <span className="fp-photo-check">✓</span>
+                  <span className="fp-photo-name">{slot.capturedName}</span>
+                  <span className="fp-photo-clear">✕</span>
+                </button>
+              ) : (
+                <button className="fp-photo-box" onClick={() => openCamera(i)}>
+                  <span className="fp-photo-icon">📷</span>
+                </button>
+              )}
             </div>
           ))}
         </div>

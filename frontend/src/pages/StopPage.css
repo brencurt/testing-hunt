@@ -1,13 +1,13 @@
 .stop-loading,
 .stop-error {
   text-align: center;
-  color: #888;
+  color: #9a7355;
   padding: 60px 20px;
   font-size: 1rem;
 }
 
 .stop-error {
-  color: #e53e3e;
+  color: #c05050;
 }
 
 .stop-page {
@@ -24,21 +24,21 @@
 
 .stop-progress-bar {
   height: 6px;
-  background: #e0e0e0;
+  background: #ddd0f0;
   border-radius: 3px;
   overflow: hidden;
 }
 
 .stop-progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #6c47ff, #a78bfa);
+  background: linear-gradient(90deg, #8b6ddb, #b8a0f0);
   border-radius: 3px;
   transition: width 0.5s ease;
 }
 
 .stop-counter {
   font-size: 0.78rem;
-  color: #888;
+  color: #b0a0ba;
   margin: 0;
   text-align: right;
 }
@@ -49,8 +49,22 @@
   gap: 12px;
 }
 
+.zoom-out-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.zoom-out-hint {
+  font-size: 0.82rem;
+  color: #9a8aaa;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .zoom-out-btn {
-  background: #6c47ff;
+  background: #8b6ddb;
   color: #fff;
   border: none;
   border-radius: 14px;
@@ -63,23 +77,23 @@
 }
 
 .zoom-out-btn:hover {
-  background: #5533e0;
+  background: #7558c4;
 }
 
 .stop-full-zoom-msg {
   text-align: center;
   font-size: 0.95rem;
-  color: #25a55a;
+  color: #4a8a57;
   font-weight: 600;
-  background: #f0fff4;
-  border: 1.5px solid #9ae6b4;
+  background: #edf7ef;
+  border: 1.5px solid #a8d9b0;
   border-radius: 12px;
   padding: 12px 16px;
   margin: 0;
 }
 
 .scan-btn {
-  background: #1a1a2e;
+  background: #9a7355;
   color: #fff;
   border: none;
   border-radius: 14px;
@@ -92,7 +106,7 @@
 }
 
 .scan-btn:hover {
-  background: #2d2d4e;
+  background: #7d5c3f;
 }
 
 /* Location name guess field */
@@ -103,8 +117,8 @@
 }
 
 .location-guess-label {
-  font-size: 0.82rem;
-  color: #666;
+  font-size: 0.85rem;
+  color: #7a6a85;
   font-weight: 500;
 }
 
@@ -116,26 +130,27 @@
 .location-guess-input {
   flex: 1;
   padding: 12px 14px;
-  border: 1.5px solid #ddd;
+  border: 1.5px solid #ddd0f0;
   border-radius: 12px;
   font-size: 0.95rem;
   outline: none;
   transition: border-color 0.2s;
-  background: #fafafa;
+  background: #fdfaff;
+  color: #2d2233;
 }
 
 .location-guess-input:focus {
-  border-color: #6c47ff;
+  border-color: #8b6ddb;
   background: #fff;
 }
 
 .location-guess-input--wrong {
-  border-color: #e53e3e;
+  border-color: #c05050;
   background: #fff5f5;
 }
 
 .location-guess-btn {
-  background: #6c47ff;
+  background: #8b6ddb;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -147,7 +162,7 @@
 }
 
 .location-guess-btn:hover {
-  background: #5533e0;
+  background: #7558c4;
 }
 
 .location-guess-msg {
@@ -159,14 +174,14 @@
 }
 
 .location-guess-msg--wrong {
-  color: #c53030;
-  background: #fff5f5;
-  border: 1px solid #feb2b2;
+  color: #a03030;
+  background: #fff0f0;
+  border: 1px solid #f0b8b8;
 }
 
 .location-guess-msg--correct {
-  color: #25a55a;
-  background: #f0fff4;
-  border: 1.5px solid #9ae6b4;
+  color: #4a8a57;
+  background: #edf7ef;
+  border: 1.5px solid #a8d9b0;
   padding: 12px 16px;
 }
