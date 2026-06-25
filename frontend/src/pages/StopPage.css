@@ -31,7 +31,7 @@
 
 .stop-progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #8b6ddb, #b8a0f0);
+  background: linear-gradient(90deg, #6aaa77, #98c9a0);
   border-radius: 3px;
   transition: width 0.5s ease;
 }
@@ -57,7 +57,7 @@
 
 .zoom-out-hint {
   font-size: 0.82rem;
-  color: #9a8aaa;
+  color: #7a6a85;
   margin: 0;
   line-height: 1.5;
   text-align: center;
@@ -93,7 +93,7 @@
 }
 
 .scan-btn {
-  background: #9a7355;
+  background: #6aaa77;
   color: #fff;
   border: none;
   border-radius: 14px;
@@ -106,7 +106,7 @@
 }
 
 .scan-btn:hover {
-  background: #7d5c3f;
+  background: #559063;
 }
 
 /* Location name guess field */

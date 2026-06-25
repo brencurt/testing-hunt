@@ -100,28 +100,21 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
 
         {isFullyZoomed && (
           <p className="stop-full-zoom-msg">
-            ¡Exacto! Ahora ve al lugar y escanea el código QR.
+            ¡Bien! Ahora ve al lugar y escanea el código QR.
           </p>
         )}
 
-        {/* Stop 0 is the opening clue — Luli hasn't gone anywhere yet.
-            Show the scan button only once she's identified the location (fully zoomed).
-            For all other stops she's already at the previous location, so always show it. */}
-        {(stopIndex > 0 || isFullyZoomed) && (
+        {isFullyZoomed && (
           <button className="scan-btn" onClick={onGoToScan}>
             📷 Escanear QR
           </button>
         )}
 
-        {/* No hint on stop 0 — the hint tells her where the QR is at the location,
-            but she hasn't gone there yet. */}
-        {stopIndex > 0 && (
-          <HintReveal
-            stopIndex={stopIndex}
-            alreadyRevealed={hintRevealed}
-            onReveal={() => onRevealHint(stopIndex)}
-          />
-        )}
+        <HintReveal
+          stopIndex={stopIndex}
+          alreadyRevealed={hintRevealed}
+          onReveal={() => onRevealHint(stopIndex)}
+        />
       </div>
 
       {activeQuestion && (

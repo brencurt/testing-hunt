@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f5f0e8;
+  background: #f0f5ec;
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
 }
 
