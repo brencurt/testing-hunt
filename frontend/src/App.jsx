@@ -14,7 +14,8 @@ import './App.css';
 
 export default function App() {
   const [meta, setMeta] = useState(null);
-  const [view, setView] = useState('welcome'); // welcome | stop | scan | puzzle_intro | puzzle | win
+  const isPuzzleDirectLink = new URLSearchParams(window.location.search).has('puzzle');
+  const [view, setView] = useState(isPuzzleDirectLink ? 'puzzle' : 'welcome'); // welcome | stop | scan | puzzle_intro | puzzle | win
   const [winMessage, setWinMessage] = useState('');
   const { session, startGame, unlockStop, unlockPuzzle, incrementZoom, revealFull, revealHint, resetGame, getStopProgress } = useGameSession();
 
@@ -25,6 +26,7 @@ export default function App() {
 
   // Restore session: if player already started, go straight to their current stop
   useEffect(() => {
+    if (isPuzzleDirectLink) return; // direct puzzle link, skip session restore
     if (session.puzzleUnlocked) {
       setView('puzzle_intro');
     } else if (session.currentStopIndex !== null) {
