@@ -3,12 +3,7 @@ import './PuzzleIntroPage.css';
 export default function PuzzleIntroPage({ onStart }) {
   return (
     <div className="puzzle-intro">
-      <div className="chest-wrapper">
-        <div className="chest-body">
-          <div className="chest-lid" />
-          <div className="chest-lock">🔒</div>
-        </div>
-      </div>
+      <img src="/chest.png" alt="" className="chest-img" />
 
       <p className="puzzle-intro-text">
         Estás casi al final del recorrido, te falta resolver un último desafío.

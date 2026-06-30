@@ -13,7 +13,7 @@
       "internalNotes": "",
       "qrCode": "stop00",
       "imageFile": "stop00.png",
-      "hint": "",
+      "hint": "Preguntale a Sabri",
       "questions": [
         { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "A qué filosofo se le atribuye 'la duda metodica'?", "answer": "Rene Descartes", "answerAlternatives": [] },
         { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "Cómo se llamaba la banda que tenía Barbi Recanati?", "answer": "Utopians", "answerAlternatives": [] },
@@ -28,7 +28,7 @@
       "internalNotes": "",
       "qrCode": "stop01",
       "imageFile": "stop01.png",
-      "hint": "",
+      "hint": "Preguntale a Nico",
       "questions": [
         { "id": "q01_01", "zoomLevelUnlocked": 1, "text": "Cuantos metros tiene la TV Tower?", "answer": "368", "answerAlternatives": [] },
         { "id": "q01_02", "zoomLevelUnlocked": 2, "text": "Quien escribio 'Así habló Zaratustra'?", "answer": "Nietzsche", "answerAlternatives": [] },
@@ -43,7 +43,7 @@
       "internalNotes": "",
       "qrCode": "stop02",
       "imageFile": "stop02.png",
-      "hint": "",
+      "hint": "Preguntale a Andreita",
       "questions": [
         { "id": "q02_01", "zoomLevelUnlocked": 1, "text": "Quien escribio 'El Capital'?", "answer": "Karl Marx", "answerAlternatives": [] },
         { "id": "q02_02", "zoomLevelUnlocked": 2, "text": "En qué localidad nació Maria Elena Walsh?", "answer": "Ramos Mejía", "answerAlternatives": [] },
@@ -58,7 +58,7 @@
       "internalNotes": "",
       "qrCode": "stop03",
       "imageFile": "stop03.png",
-      "hint": "",
+      "hint": "Preguntale a Vicky",
       "questions": [
         { "id": "q03_01", "zoomLevelUnlocked": 1, "text": "Qué número de julio cumple Malena Pichot?", "answer": "6", "answerAlternatives": [] },
         { "id": "q03_02", "zoomLevelUnlocked": 2, "text": "Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "answerAlternatives": [] },
@@ -73,7 +73,7 @@
       "internalNotes": "",
       "qrCode": "stop04",
       "imageFile": "stop04.png",
-      "hint": "",
+      "hint": "Preguntale a Floppy",
       "questions": [
         { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "Cuál es el animal que representa al Deportivo Morón?", "answer": "Gallito", "answerAlternatives": [] },
         { "id": "q04_02", "zoomLevelUnlocked": 2, "text": "Dónde queda el Cerro Otto?", "answer": "Bariloche", "answerAlternatives": [] },
@@ -88,7 +88,7 @@
       "internalNotes": "",
       "qrCode": "stop05",
       "imageFile": "stop05.png",
-      "hint": "",
+      "hint": "Preguntale a Manu",
       "questions": [
         { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "Dónde pasamos la Navidad 2022?", "answer": "Chamonix", "answerAlternatives": [] },
         { "id": "q05_02", "zoomLevelUnlocked": 2, "text": "Cómo se llama la banda de Debbie Harry?", "answer": "Blondie", "answerAlternatives": [] },
@@ -103,7 +103,7 @@
       "internalNotes": "",
       "qrCode": "stop06",
       "imageFile": "stop06.png",
-      "hint": "",
+      "hint": "Preguntale a Ceci",
       "questions": [
         { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "A qué filosofa se le atribuye 'la razón poética'?", "answer": "Maria Zambrano", "answerAlternatives": [] },
         { "id": "q06_02", "zoomLevelUnlocked": 2, "text": "Quién fundó el estoicismo?", "answer": "Zenón de Citio", "answerAlternatives": [] },
@@ -118,7 +118,7 @@
       "internalNotes": "",
       "qrCode": "stop07",
       "imageFile": "stop07.png",
-      "hint": "",
+      "hint": "Preguntale a tus primas",
       "questions": [
         { "id": "q07_01", "zoomLevelUnlocked": 1, "text": "Qué color se obtiene al mezclar magenta y amarillo?", "answer": "Rojo", "answerAlternatives": [] },
         { "id": "q07_02", "zoomLevelUnlocked": 2, "text": "Cómo se llama la obra de Artemisia Gentileschi que está en la Galeria degli Uffizi?", "answer": "Judit decapitando a Holofernes", "answerAlternatives": [] },
@@ -133,7 +133,7 @@
       "internalNotes": "",
       "qrCode": "stop08",
       "imageFile": "stop08.png",
-      "hint": "",
+      "hint": "Preguntale a tus viejos",
       "questions": [
         { "id": "q08_01", "zoomLevelUnlocked": 1, "text": "En que pais nacio Juana Azurduy?", "answer": "Bolivia", "answerAlternatives": [] },
         { "id": "q08_02", "zoomLevelUnlocked": 2, "text": "Cuál es el planeta más chico del sistema solar?", "answer": "Mercurio", "answerAlternatives": [] },

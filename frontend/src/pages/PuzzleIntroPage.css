@@ -11,48 +11,12 @@
   gap: 1.1rem;
 }
 
-/* ── Chest illustration ─────────────────────────────────────── */
-.chest-wrapper {
+/* ── Chest image ────────────────────────────────────────────── */
+.chest-img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
   margin-bottom: 0.5rem;
-}
-
-.chest-body {
-  position: relative;
-  width: 110px;
-  height: 90px;
-  background: linear-gradient(160deg, #c49a6c, #a07848);
-  border-radius: 6px 6px 10px 10px;
-  border: 3px solid #7a5530;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.chest-lid {
-  position: absolute;
-  top: -22px;
-  left: -3px;
-  width: 110px;
-  height: 30px;
-  background: linear-gradient(160deg, #d4aa7a, #b88848);
-  border-radius: 8px 8px 0 0;
-  border: 3px solid #7a5530;
-  border-bottom: none;
-}
-
-.chest-lid::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: #7a5530;
-}
-
-.chest-lock {
-  font-size: 1.6rem;
-  margin-top: 6px;
 }
 
 /* ── Text ───────────────────────────────────────────────────── */

@@ -99,7 +99,16 @@ function checkAnswer(stopIndex, questionId, answer) {
   const normalized = normalizeAnswer(answer);
   const validAnswers = [question.answer, ...(question.answerAlternatives || [])].map(normalizeAnswer);
 
-  return { correct: validAnswers.includes(normalized) };
+  const isMatch = validAnswers.some(expected => {
+    if (normalized === expected) return true;
+    // Accept if player's answer (4+ chars) is contained in the expected answer
+    if (normalized.length >= 4 && expected.includes(normalized)) return true;
+    // Accept if expected is contained in player's answer (player wrote more than needed)
+    if (expected.length >= 4 && normalized.includes(expected)) return true;
+    return false;
+  });
+
+  return { correct: isMatch };
 }
 
 /**

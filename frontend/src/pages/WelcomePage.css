@@ -9,8 +9,10 @@
   text-align: center;
 }
 
-.welcome-emoji {
-  font-size: 3.5rem;
+.welcome-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
   margin-bottom: 12px;
 }
 
