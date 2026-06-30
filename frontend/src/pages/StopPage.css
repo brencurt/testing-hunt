@@ -38,7 +38,7 @@
 
 .stop-counter {
   font-size: 0.78rem;
-  color: #b0a0ba;
+  color: #2d2233;
   margin: 0;
   text-align: right;
 }
@@ -57,14 +57,14 @@
 
 .zoom-out-hint {
   font-size: 0.82rem;
-  color: #7a6a85;
+  color: #2d2233;
   margin: 0;
   line-height: 1.5;
   text-align: center;
 }
 
 .zoom-out-btn {
-  background: #8b6ddb;
+  background: #da6c46;
   color: #fff;
   border: none;
   border-radius: 14px;
@@ -77,7 +77,7 @@
 }
 
 .zoom-out-btn:hover {
-  background: #7558c4;
+  background: #c05030;
 }
 
 .stop-full-zoom-msg {
@@ -118,7 +118,7 @@
 
 .location-guess-label {
   font-size: 0.85rem;
-  color: #7a6a85;
+  color: #2d2233;
   font-weight: 500;
 }
 
@@ -140,7 +140,7 @@
 }
 
 .location-guess-input:focus {
-  border-color: #8b6ddb;
+  border-color: #da6c46;
   background: #fff;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .location-guess-btn {
-  background: #8b6ddb;
+  background: #da6c46;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -162,7 +162,7 @@
 }
 
 .location-guess-btn:hover {
-  background: #7558c4;
+  background: #c05030;
 }
 
 .location-guess-msg {

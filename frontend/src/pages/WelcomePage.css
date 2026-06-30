@@ -24,7 +24,7 @@
 
 .welcome-subtitle {
   font-size: 0.95rem;
-  color: #7a6a85;
+  color: #2d2233;
   line-height: 1.6;
   margin: 0;
 }
@@ -54,12 +54,12 @@
 .rule p {
   margin: 0;
   font-size: 0.9rem;
-  color: #5a4a66;
+  color: #2d2233;
   line-height: 1.5;
 }
 
 .welcome-start-btn {
-  background: #8b6ddb;
+  background: #da6c46;
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -72,7 +72,7 @@
 }
 
 .welcome-start-btn:hover {
-  background: #7558c4;
+  background: #c05030;
 }
 
 .welcome-start-btn:active {
@@ -82,6 +82,6 @@
 .welcome-note {
   text-align: center;
   font-size: 0.78rem;
-  color: #b0a0ba;
+  color: #2d2233;
   margin: 0;
 }

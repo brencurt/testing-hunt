@@ -41,7 +41,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #8b6ddb;
+  color: #da6c46;
   margin-bottom: 12px;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .modal-input:focus {
-  border-color: #8b6ddb;
+  border-color: #da6c46;
 }
 
 .modal-input--wrong {
@@ -89,7 +89,7 @@
 
 .modal-submit {
   padding: 14px;
-  background: #8b6ddb;
+  background: #da6c46;
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -100,7 +100,7 @@
 }
 
 .modal-submit:hover:not(:disabled) {
-  background: #7558c4;
+  background: #c05030;
 }
 
 .modal-submit:disabled {

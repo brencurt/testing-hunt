@@ -20,13 +20,13 @@
 .win-title {
   font-size: 2.2rem;
   font-weight: 800;
-  color: #8b6ddb;
+  color: #da6c46;
   margin: 0;
 }
 
 .win-message {
   font-size: 1.05rem;
-  color: #5a4a66;
+  color: #2d2233;
   line-height: 1.8;
   margin: 0;
   white-space: pre-line;
@@ -39,7 +39,7 @@
 .win-restart-btn {
   background: none;
   border: 1.5px solid #c4b0d8;
-  color: #b0a0ba;
+  color: #2d2233;
   border-radius: 12px;
   padding: 12px 24px;
   font-size: 0.9rem;
