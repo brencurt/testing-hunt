@@ -11,7 +11,7 @@
 }
 
 .modal-card {
-  background: #fdfaff;
+  background: #fdfaf8;
   border-radius: 24px 24px 0 0;
   padding: 28px 24px 36px;
   width: 100%;
@@ -63,13 +63,13 @@
   width: 100%;
   padding: 14px 16px;
   font-size: 1rem;
-  border: 2px solid #ddd0f0;
+  border: 2px solid #f0c8b0;
   border-radius: 12px;
   outline: none;
   transition: border-color 0.2s;
   box-sizing: border-box;
   color: #2d2233;
-  background: #fdfaff;
+  background: #fdfaf8;
 }
 
 .modal-input:focus {

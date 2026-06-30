@@ -30,15 +30,15 @@
   line-height: 1.8;
   margin: 0;
   white-space: pre-line;
-  background: #f0eaf8;
+  background: #fdf0eb;
   border-radius: 16px;
   padding: 20px;
-  border: 1px solid #ddd0f0;
+  border: 1px solid #f0c8b0;
 }
 
 .win-restart-btn {
   background: none;
-  border: 1.5px solid #c4b0d8;
+  border: 1.5px solid #e8b898;
   color: #2d2233;
   border-radius: 12px;
   padding: 12px 24px;

@@ -24,7 +24,7 @@
 
 .stop-progress-bar {
   height: 6px;
-  background: #ddd0f0;
+  background: #f0c8b0;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -126,12 +126,12 @@
 .location-guess-input {
   flex: 1;
   padding: 12px 14px;
-  border: 1.5px solid #ddd0f0;
+  border: 1.5px solid #f0c8b0;
   border-radius: 12px;
   font-size: 0.95rem;
   outline: none;
   transition: border-color 0.2s;
-  background: #fdfaff;
+  background: #fdfaf8;
   color: #2d2233;
 }
 
