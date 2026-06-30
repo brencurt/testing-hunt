@@ -3,6 +3,7 @@ import './PuzzleIntroPage.css';
 export default function PuzzleIntroPage({ onStart }) {
   return (
     <div className="puzzle-intro">
+      <h2 className="puzzle-intro-title">¡Muy bien! ¡Falta poco!</h2>
       <img src="/chest.png" alt="" className="chest-img" />
 
       <p className="puzzle-intro-text">

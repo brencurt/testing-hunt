@@ -5,10 +5,12 @@ export default function WelcomePage({ onStart, playerName }) {
     <div className="welcome-page">
       <div className="welcome-top">
         <img src="/rainbow.png" alt="" className="welcome-img" />
-        <h1 className="welcome-title">¿Estás lista para salir a buscar tu regalo de cumpleaños?</h1>
+        <h1 className="welcome-title">¡Bienvenida a la caza de tu regalo de cumpleaños!</h1>
         <p className="welcome-subtitle">
-          Vamos a ir a algunos lugares de Berlín bastante simbólicos para vos (o para las dos),
+          Todavia no es tu cumpleaños pero vamos a pasar tus últimas horas con 34 años buscando tu regalo.
+          Para eso vamos a ir a ciertos lugares de Berlín bastante simbólicos para vos (o para las dos),
           pero para llegar vas a tener que afinar tu ojo y reconocer las paradas.
+          De paso en alguna quizás nos tomamos una cerveza ;-)
         </p>
       </div>
 
@@ -22,7 +24,7 @@ export default function WelcomePage({ onStart, playerName }) {
           <p>Si no lo reconocés, respondé preguntas para hacer zoom out poco a poco.</p>
         </div>
         <div className="rule">
-          <span className="rule-icon">📱</span>
+          <span className="rule-icon">📷</span>
           <p>Cuando llegués al lugar, escaneá el código QR para desbloquear la siguiente pista.</p>
         </div>
       </div>

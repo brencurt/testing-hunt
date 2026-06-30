@@ -3,7 +3,7 @@
     "playerName": "Luli",
     "birthdayYear": 2026,
     "totalStops": 10,
-    "finalMessage": "¡Muy bien! Otro año más descubriendo tu regalo de cumpleaños, lo lograste como siempre. Espero que hayas disfrutado de este viaje y que disfrutes del que viene ;) ¡Feliz cumpleaños! Te amamos."
+    "finalMessage": "¡Muy bien! Otro año más descubriendo tu regalo de cumpleaños, lo lograste como siempre.\nEspero que hayas disfrutado de este viaje y que disfrutes del que viene.\nSi todo salió acorde a los planes, ahora sí puedo decirte: ¡FELIZ CUMPLEAÑOS!\nTe amamos."
   },
   "stops": [
     {
@@ -14,6 +14,7 @@
       "qrCode": "stop00",
       "imageFile": "stop00.png",
       "hint": "Preguntale a Sabri",
+      "successNote": "Y ya que estamos podemos tomarnos un birrin como aquella vez, no?",
       "questions": [
         { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "A qué filosofo se le atribuye 'la duda metodica'?", "answer": "Rene Descartes", "answerAlternatives": [] },
         { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "Cómo se llamaba la banda que tenía Barbi Recanati?", "answer": "Utopians", "answerAlternatives": [] },
@@ -29,6 +30,7 @@
       "qrCode": "stop01",
       "imageFile": "stop01.png",
       "hint": "Preguntale a Nico",
+      "successNote": "Nos tomamos un birrin más?",
       "questions": [
         { "id": "q01_01", "zoomLevelUnlocked": 1, "text": "Cuantos metros tiene la TV Tower?", "answer": "368", "answerAlternatives": [] },
         { "id": "q01_02", "zoomLevelUnlocked": 2, "text": "Quien escribio 'Así habló Zaratustra'?", "answer": "Nietzsche", "answerAlternatives": [] },
@@ -44,6 +46,7 @@
       "qrCode": "stop02",
       "imageFile": "stop02.png",
       "hint": "Preguntale a Andreita",
+      "successNote": "Una lloradita y a seguir?",
       "questions": [
         { "id": "q02_01", "zoomLevelUnlocked": 1, "text": "Quien escribio 'El Capital'?", "answer": "Karl Marx", "answerAlternatives": [] },
         { "id": "q02_02", "zoomLevelUnlocked": 2, "text": "En qué localidad nació Maria Elena Walsh?", "answer": "Ramos Mejía", "answerAlternatives": [] },
@@ -74,6 +77,7 @@
       "qrCode": "stop04",
       "imageFile": "stop04.png",
       "hint": "Preguntale a Floppy",
+      "successNote": "De paso nos subimos al Ubahn",
       "questions": [
         { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "Cuál es el animal que representa al Deportivo Morón?", "answer": "Gallito", "answerAlternatives": [] },
         { "id": "q04_02", "zoomLevelUnlocked": 2, "text": "Dónde queda el Cerro Otto?", "answer": "Bariloche", "answerAlternatives": [] },
@@ -89,6 +93,7 @@
       "qrCode": "stop05",
       "imageFile": "stop05.png",
       "hint": "Preguntale a Manu",
+      "successNote": "Y de paso si andamos con hambre comemos algo",
       "questions": [
         { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "Dónde pasamos la Navidad 2022?", "answer": "Chamonix", "answerAlternatives": [] },
         { "id": "q05_02", "zoomLevelUnlocked": 2, "text": "Cómo se llama la banda de Debbie Harry?", "answer": "Blondie", "answerAlternatives": [] },
@@ -104,6 +109,7 @@
       "qrCode": "stop06",
       "imageFile": "stop06.png",
       "hint": "Preguntale a Ceci",
+      "successNote": "Y quizás nos llevamos un birrin para el camino que queda",
       "questions": [
         { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "A qué filosofa se le atribuye 'la razón poética'?", "answer": "Maria Zambrano", "answerAlternatives": [] },
         { "id": "q06_02", "zoomLevelUnlocked": 2, "text": "Quién fundó el estoicismo?", "answer": "Zenón de Citio", "answerAlternatives": [] },

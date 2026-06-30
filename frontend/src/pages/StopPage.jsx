@@ -101,6 +101,7 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
         {isFullyZoomed && (
           <p className="stop-full-zoom-msg">
             ¡Bien! Ahora ve al lugar y escanea el código QR.
+            {stop.successNote && ` ${stop.successNote}`}
           </p>
         )}
 
