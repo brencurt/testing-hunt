@@ -26,6 +26,12 @@
   height: 140px;
   object-fit: contain;
   margin-bottom: 0.8rem;
+  animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from { transform: scale(1); }
+  to   { transform: scale(1.15); }
 }
 
 /* ── Text ───────────────────────────────────────────────────── */
