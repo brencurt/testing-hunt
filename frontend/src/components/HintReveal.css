@@ -1,3 +1,17 @@
+.hint-reveal-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hint-reveal-label {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #2d2233;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .hint-btn {
   background: #faf5ef;
   border: 1px solid #d4b898;

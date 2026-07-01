@@ -89,7 +89,7 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
           <div className="zoom-out-section">
             <p className="zoom-out-hint">
               Si no reconocés el lugar, podés hacer zoom out de la imagen,
-              pero para eso vas a tener que responder una pregunta.
+              pero para eso vas a tener que responder una pregunta.<br /><br />
               ¿Estás de acuerdo? Presioná el botón:
             </p>
             <button className="zoom-out-btn" onClick={() => setActiveQuestion(nextQuestion)}>

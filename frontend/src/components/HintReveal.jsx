@@ -30,8 +30,11 @@ export default function HintReveal({ stopIndex, alreadyRevealed, onReveal }) {
   }
 
   return (
-    <button className="hint-btn" onClick={handleReveal} disabled={loading}>
-      {loading ? 'Buscando pista...' : '¿No encuentras el QR? Ver pista'}
-    </button>
+    <div className="hint-reveal-section">
+      <p className="hint-reveal-label">Si al llegar al lugar no encontrás el QR, podés pedir una ayuda:</p>
+      <button className="hint-btn" onClick={handleReveal} disabled={loading}>
+        {loading ? 'Buscando...' : 'Ver pista'}
+      </button>
+    </div>
   );
 }
