@@ -17,6 +17,9 @@
   margin-bottom: 20px;
   mix-blend-mode: multiply;
   animation: bounce 1s ease infinite alternate;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes bounce {
