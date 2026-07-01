@@ -10,10 +10,12 @@
 }
 
 .welcome-img {
-  width: 200px;
+  width: 400px;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
   margin-bottom: 20px;
+  mix-blend-mode: multiply;
   animation: bounce 1s ease infinite alternate;
 }
 
