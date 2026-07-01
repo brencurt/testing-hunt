@@ -7,10 +7,10 @@ export default function WelcomePage({ onStart, playerName }) {
         <img src="/rainbow.png" alt="" className="welcome-img" />
         <h1 className="welcome-title">¡Bienvenida a la caza de tu regalo de cumpleaños!</h1>
         <p className="welcome-subtitle">
-          Todavia no es tu cumpleaños pero vamos a pasar tus últimas horas con 34 años buscando tu regalo.
+          Todavía no es tu cumpleaños pero vamos a pasar tus últimas horas con 34 años buscando tu regalo.
           Para eso vamos a ir a ciertos lugares de Berlín bastante simbólicos para vos (o para las dos),
           pero para llegar vas a tener que afinar tu ojo y reconocer las paradas.
-          De paso en alguna quizás nos tomamos una cerveza ;-)
+          De paso en alguna quizás nos tomamos una cerveza 😉
         </p>
       </div>
 

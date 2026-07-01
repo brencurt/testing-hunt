@@ -1,8 +1,8 @@
 .welcome-page {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-bottom: 16px;
+  gap: 36px;
+  padding-bottom: 24px;
 }
 
 .welcome-top {
@@ -13,14 +13,14 @@
   width: 120px;
   height: 120px;
   object-fit: contain;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .welcome-title {
   font-size: 1.7rem;
   font-weight: 800;
   color: #2d2233;
-  margin: 0 0 12px;
+  margin: 0 0 16px;
   line-height: 1.25;
 }
 
@@ -34,7 +34,7 @@
 .welcome-rules {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 18px;
   background: #fdf0eb;
   border-radius: 16px;
   padding: 20px;

@@ -88,9 +88,9 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
         {!isFullyZoomed && nextQuestion && (
           <div className="zoom-out-section">
             <p className="zoom-out-hint">
-              Si no reconocés el lugar podés hacer zoom out de la imagen,
+              Si no reconocés el lugar, podés hacer zoom out de la imagen,
               pero para eso vas a tener que responder una pregunta.
-              Si estás de acuerdo presioná el botón:
+              ¿Estás de acuerdo? Presioná el botón:
             </p>
             <button className="zoom-out-btn" onClick={() => setActiveQuestion(nextQuestion)}>
               Hacer zoom out
@@ -100,7 +100,7 @@ export default function StopPage({ stopIndex, zoomLevel, answeredQuestions, hint
 
         {isFullyZoomed && (
           <p className="stop-full-zoom-msg">
-            ¡Bien! Ahora ve al lugar y escanea el código QR.
+            ¡Bien! Ahora andá al lugar y escaneá el código QR.
             {stop.successNote && ` ${stop.successNote}`}
           </p>
         )}

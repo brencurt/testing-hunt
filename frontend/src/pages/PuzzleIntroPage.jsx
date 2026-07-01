@@ -13,7 +13,7 @@ export default function PuzzleIntroPage({ onStart }) {
         En casa vas a encontrar el cofre, pero ¿la llave?
       </p>
       <p className="puzzle-intro-text">
-        Cuando tengas el cofre en tus manos presioná el botón:
+        Cuando tengas el cofre en tus manos, presioná el botón:
       </p>
 
       <button className="puzzle-intro-btn" onClick={onStart}>

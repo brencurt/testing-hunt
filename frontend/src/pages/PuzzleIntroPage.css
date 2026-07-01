@@ -8,7 +8,7 @@
   text-align: center;
   background: #f0f5ec;
   color: #2d2233;
-  gap: 1.1rem;
+  gap: 1.6rem;
 }
 
 /* ── Title ──────────────────────────────────────────────────── */
@@ -25,7 +25,7 @@
   width: 140px;
   height: 140px;
   object-fit: contain;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 /* ── Text ───────────────────────────────────────────────────── */
@@ -39,7 +39,7 @@
 
 /* ── Button ─────────────────────────────────────────────────── */
 .puzzle-intro-btn {
-  margin-top: 0.8rem;
+  margin-top: 1.2rem;
   padding: 0.9rem 2rem;
   font-size: 1rem;
   font-weight: 700;
