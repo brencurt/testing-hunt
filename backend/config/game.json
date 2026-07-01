@@ -3,7 +3,7 @@
     "playerName": "Luli",
     "birthdayYear": 2026,
     "totalStops": 10,
-    "finalMessage": "¡Muy bien! Otro año más descubriendo tu regalo de cumpleaños, lo lograste como siempre.\nEspero que hayas disfrutado de este viaje y que disfrutes del que viene.\nSi todo salió acorde a los planes, ahora sí puedo decirte: ¡FELIZ CUMPLEAÑOS!\nTe amamos."
+    "finalMessage": "¡Muy bien, papina! Otro año más descubriendo tu regalo de cumpleaños, lo lograste como siempre.\nEspero que hayas disfrutado de este viaje y que disfrutes del que viene.\nSi todo salió acorde a los planes, ahora sí puedo decirte: ¡FELIZ CUMPLEAÑOS!\nTe amamos."
   },
   "stops": [
     {
@@ -14,12 +14,12 @@
       "qrCode": "stop00",
       "imageFile": "stop00.png",
       "hint": "Preguntale a Sabri",
-      "successNote": "¿Y ya que estamos nos tomamos un birrin como aquella vez, no?",
+      "successNote": "Y ya que estamos nos podemos tomar un birrin como aquella vez :-)",
       "questions": [
-        { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "A qué filosofo se le atribuye 'la duda metodica'?", "answer": "Rene Descartes", "answerAlternatives": [] },
-        { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "Cómo se llamaba la banda que tenía Barbi Recanati?", "answer": "Utopians", "answerAlternatives": [] },
-        { "id": "q00_03", "zoomLevelUnlocked": 3, "text": "Cuánto pesó la última vez que Mabel fue al veterinario?", "answer": "12,9", "answerAlternatives": [] },
-        { "id": "q00_04", "zoomLevelUnlocked": 4, "text": "Cuál es el partizip II de 'umtauschen'?", "answer": "Umgetausch", "answerAlternatives": [] }
+        { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "¿A qué filosofo se le atribuye 'La Duda Metódica'?", "answer": "Rene Descartes", "answerAlternatives": [] },
+        { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "¿Cómo se llamaba la banda que tenía Barbi Recanati?", "answer": "Utopians", "answerAlternatives": [] },
+        { "id": "q00_03", "zoomLevelUnlocked": 3, "text": "¿Cuánto pesó Mabel la última vez que fue al veterinario?", "answer": "12,9", "answerAlternatives": [] },
+        { "id": "q00_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'umtauschen'?", "answer": "Umgetausch", "answerAlternatives": [] }
       ]
     },
     {
@@ -32,10 +32,10 @@
       "hint": "Preguntale a Nico",
       "successNote": "¿Nos tomamos un birrin más?",
       "questions": [
-        { "id": "q01_01", "zoomLevelUnlocked": 1, "text": "Cuantos metros tiene la TV Tower?", "answer": "368", "answerAlternatives": [] },
-        { "id": "q01_02", "zoomLevelUnlocked": 2, "text": "Quien escribio 'Así habló Zaratustra'?", "answer": "Nietzsche", "answerAlternatives": [] },
-        { "id": "q01_03", "zoomLevelUnlocked": 3, "text": "Cual es el nombre del último disco de Marilina Bertoldi", "answer": "Para quien trabajas Vol. I", "answerAlternatives": [] },
-        { "id": "q01_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'anziehen'", "answer": "Angezogen", "answerAlternatives": [] }
+        { "id": "q01_01", "zoomLevelUnlocked": 1, "text": "¿Cuántos metros tiene la TV Tower?", "answer": "368", "answerAlternatives": [] },
+        { "id": "q01_02", "zoomLevelUnlocked": 2, "text": "¿Quién escribió 'Así habló Zaratustra'?", "answer": "Nietzsche?", "answerAlternatives": [] },
+        { "id": "q01_03", "zoomLevelUnlocked": 3, "text": "¿Cuál es el nombre del último disco de Marilina Bertoldi?", "answer": "Para quien trabajas Vol. I", "answerAlternatives": [] },
+        { "id": "q01_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'anziehen'?", "answer": "Angezogen", "answerAlternatives": [] }
       ]
     },
     {
@@ -48,10 +48,10 @@
       "hint": "Preguntale a Andreita",
       "successNote": "¿Una lloradita y a seguir?",
       "questions": [
-        { "id": "q02_01", "zoomLevelUnlocked": 1, "text": "Quien escribio 'El Capital'?", "answer": "Karl Marx", "answerAlternatives": [] },
-        { "id": "q02_02", "zoomLevelUnlocked": 2, "text": "En qué localidad nació Maria Elena Walsh?", "answer": "Ramos Mejía", "answerAlternatives": [] },
-        { "id": "q02_03", "zoomLevelUnlocked": 3, "text": "En qué mes cayó el muro de Berlín?", "answer": "Noviembre", "answerAlternatives": [] },
-        { "id": "q02_04", "zoomLevelUnlocked": 4, "text": "Cuál es el partizip II de 'fechten'?", "answer": "gefochten", "answerAlternatives": [] }
+        { "id": "q02_01", "zoomLevelUnlocked": 1, "text": "¿Quién escribio 'El Capital'?", "answer": "Karl Marx", "answerAlternatives": [] },
+        { "id": "q02_02", "zoomLevelUnlocked": 2, "text": "¿En qué localidad de Buenos Aires nació Maria Elena Walsh?", "answer": "Ramos Mejía", "answerAlternatives": [] },
+        { "id": "q02_03", "zoomLevelUnlocked": 3, "text": "¿En qué mes cayó el 'Muro de Berlín'?", "answer": "Noviembre", "answerAlternatives": [] },
+        { "id": "q02_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'fechten'?", "answer": "gefochten", "answerAlternatives": [] }
       ]
     },
     {
@@ -63,10 +63,10 @@
       "imageFile": "stop03.png",
       "hint": "Preguntale a Vicky",
       "questions": [
-        { "id": "q03_01", "zoomLevelUnlocked": 1, "text": "Qué número de julio cumple Malena Pichot?", "answer": "6", "answerAlternatives": [] },
-        { "id": "q03_02", "zoomLevelUnlocked": 2, "text": "Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "answerAlternatives": [] },
-        { "id": "q03_03", "zoomLevelUnlocked": 3, "text": "Donde nació Maria O'Donnell?", "answer": "Estados Unidos", "answerAlternatives": [] },
-        { "id": "q03_04", "zoomLevelUnlocked": 4, "text": "Cuál es el partizip II de 'schneiden'?", "answer": "geschnitten", "answerAlternatives": [] }
+        { "id": "q03_01", "zoomLevelUnlocked": 1, "text": "¿Qué número de julio cumple Malena Pichot?", "answer": "6", "answerAlternatives": [] },
+        { "id": "q03_02", "zoomLevelUnlocked": 2, "text": "¿Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "answerAlternatives": [] },
+        { "id": "q03_03", "zoomLevelUnlocked": 3, "text": "¿En qué país nació Maria O'Donnell?", "answer": "Estados Unidos", "answerAlternatives": [] },
+        { "id": "q03_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'schneiden'?", "answer": "geschnitten", "answerAlternatives": [] }
       ]
     },
     {
@@ -76,13 +76,13 @@
       "internalNotes": "",
       "qrCode": "stop04",
       "imageFile": "stop04.png",
-      "hint": "Preguntale a Floppy",
+      "hint": "Preguntale a Georgi",
       "successNote": "¡De paso nos subimos al U-Bahn!",
       "questions": [
-        { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "Cuál es el animal que representa al Deportivo Morón?", "answer": "Gallito", "answerAlternatives": [] },
-        { "id": "q04_02", "zoomLevelUnlocked": 2, "text": "Dónde queda el Cerro Otto?", "answer": "Bariloche", "answerAlternatives": [] },
-        { "id": "q04_03", "zoomLevelUnlocked": 3, "text": "En qué año se construyó el Muro de Berlin?", "answer": "1961", "answerAlternatives": [] },
-        { "id": "q04_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'greifen'", "answer": "gegriffen", "answerAlternatives": [] }
+        { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "¿Qué animal representa al 'Deportivo Morón'?", "answer": "Gallito", "answerAlternatives": ["Un gallo"] },
+        { "id": "q04_02", "zoomLevelUnlocked": 2, "text": "¿Dónde queda el Cerro Otto?", "answer": "Bariloche", "answerAlternatives": [] },
+        { "id": "q04_03", "zoomLevelUnlocked": 3, "text": "¿En qué año se construyó el 'Muro de Berlin'?", "answer": "1961", "answerAlternatives": [] },
+        { "id": "q04_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'greifen'", "answer": "gegriffen", "answerAlternatives": [] }
       ]
     },
     {
@@ -95,10 +95,10 @@
       "hint": "Preguntale a Manu",
       "successNote": "¡Y de paso si andamos con hambre, comemos algo!",
       "questions": [
-        { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "Dónde pasamos la Navidad 2022?", "answer": "Chamonix", "answerAlternatives": [] },
-        { "id": "q05_02", "zoomLevelUnlocked": 2, "text": "Cómo se llama la banda de Debbie Harry?", "answer": "Blondie", "answerAlternatives": [] },
-        { "id": "q05_03", "zoomLevelUnlocked": 3, "text": "Qué Apolo fue el primero en aterrizar en la luna?", "answer": "Apolo 11", "answerAlternatives": [] },
-        { "id": "q05_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'spinnen'", "answer": "gesponnen", "answerAlternatives": [] }
+        { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "¿Dónde pasamos la Navidad 2022?", "answer": "Chamonix", "answerAlternatives": [] },
+        { "id": "q05_02", "zoomLevelUnlocked": 2, "text": "¿Cómo se llama la banda liderada por Debbie Harry?", "answer": "Blondie", "answerAlternatives": [] },
+        { "id": "q05_03", "zoomLevelUnlocked": 3, "text": "¿Qué Apolo fue el primero en aterrizar en la luna?", "answer": "Apolo 11", "answerAlternatives": [] },
+        { "id": "q05_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'spinnen'?", "answer": "gesponnen", "answerAlternatives": [] }
       ]
     },
     {
@@ -111,10 +111,10 @@
       "hint": "Preguntale a Ceci",
       "successNote": "¡Y quizás nos llevamos un birrin para el camino que queda!",
       "questions": [
-        { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "A qué filosofa se le atribuye 'la razón poética'?", "answer": "Maria Zambrano", "answerAlternatives": [] },
-        { "id": "q06_02", "zoomLevelUnlocked": 2, "text": "Quién fundó el estoicismo?", "answer": "Zenón de Citio", "answerAlternatives": [] },
-        { "id": "q06_03", "zoomLevelUnlocked": 3, "text": "En qué continente queda Cabo Verde?", "answer": "Africa", "answerAlternatives": [] },
-        { "id": "q06_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'lügen'", "answer": "gelogen", "answerAlternatives": [] }
+        { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "¿A qué filosofa se le atribuye 'La razón Poética'?", "answer": "Maria Zambrano", "answerAlternatives": [] },
+        { "id": "q06_02", "zoomLevelUnlocked": 2, "text": "¿Quién fundó el 'Estoicismo'?", "answer": "Zenón de Citio", "answerAlternatives": [] },
+        { "id": "q06_03", "zoomLevelUnlocked": 3, "text": "¿En qué continente queda Cabo Verde?", "answer": "Africa", "answerAlternatives": [] },
+        { "id": "q06_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'lügen'?", "answer": "gelogen", "answerAlternatives": [] }
       ]
     },
     {
@@ -124,12 +124,12 @@
       "internalNotes": "",
       "qrCode": "stop07",
       "imageFile": "stop07.png",
-      "hint": "Preguntale a tus primas",
+      "hint": "Preguntale a Panky",
       "questions": [
-        { "id": "q07_01", "zoomLevelUnlocked": 1, "text": "Qué color se obtiene al mezclar magenta y amarillo?", "answer": "Rojo", "answerAlternatives": [] },
-        { "id": "q07_02", "zoomLevelUnlocked": 2, "text": "Cómo se llama la obra de Artemisia Gentileschi que está en la Galeria degli Uffizi?", "answer": "Judit decapitando a Holofernes", "answerAlternatives": [] },
-        { "id": "q07_03", "zoomLevelUnlocked": 3, "text": "Cual es el derby caraqueño? Caracas Fútbol Club vs ?", "answer": "Petare Fútbol Club", "answerAlternatives": [] },
-        { "id": "q07_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'verlieren'", "answer": "verloren", "answerAlternatives": [] }
+        { "id": "q07_01", "zoomLevelUnlocked": 1, "text": "¿Qué color se obtiene al mezclar magenta y amarillo?", "answer": "Rojo", "answerAlternatives": [] },
+        { "id": "q07_02", "zoomLevelUnlocked": 2, "text": "¿Cómo se llama la obra de Artemisia Gentileschi que está en la Galeria degli Uffizi?", "answer": "Judit decapitando a Holofernes", "answerAlternatives": [] },
+        { "id": "q07_03", "zoomLevelUnlocked": 3, "text": "¿Cuál es el derby caraqueño? Caracas Fútbol Club vs ____________?", "answer": "Petare Fútbol Club", "answerAlternatives": [] },
+        { "id": "q07_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'verlieren'?", "answer": "verloren", "answerAlternatives": [] }
       ]
     },
     {
@@ -141,10 +141,10 @@
       "imageFile": "stop08.png",
       "hint": "Preguntale a tus viejos",
       "questions": [
-        { "id": "q08_01", "zoomLevelUnlocked": 1, "text": "En que pais nacio Juana Azurduy?", "answer": "Bolivia", "answerAlternatives": [] },
-        { "id": "q08_02", "zoomLevelUnlocked": 2, "text": "Cuál es el planeta más chico del sistema solar?", "answer": "Mercurio", "answerAlternatives": [] },
-        { "id": "q08_03", "zoomLevelUnlocked": 3, "text": "De qué signo es Julia Mengolini?", "answer": "Tauro", "answerAlternatives": [] },
-        { "id": "q08_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'gebären'", "answer": "geboren", "answerAlternatives": [] }
+        { "id": "q08_01", "zoomLevelUnlocked": 1, "text": "¿En que país nació Juana Azurduy?", "answer": "Bolivia", "answerAlternatives": [] },
+        { "id": "q08_02", "zoomLevelUnlocked": 2, "text": "¿Cuál es el planeta más chico del sistema solar?", "answer": "Mercurio", "answerAlternatives": [] },
+        { "id": "q08_03", "zoomLevelUnlocked": 3, "text": "¿De qué signo es Julia Mengolini?", "answer": "Tauro", "answerAlternatives": [] },
+        { "id": "q08_04", "zoomLevelUnlocked": 4, "text": "¿Cuál es el partizip II de 'gebären'", "answer": "geboren", "answerAlternatives": [] }
       ]
     },
     {
@@ -156,10 +156,10 @@
       "imageFile": "stop09.png",
       "hint": "",
       "questions": [
-        { "id": "q09_01", "zoomLevelUnlocked": 1, "text": "En qué país nació Maria Montessori?", "answer": "Italia", "answerAlternatives": [] },
-        { "id": "q09_02", "zoomLevelUnlocked": 2, "text": "Cuando es el dia de la Independencia en Argentina?", "answer": "9 de Julio", "answerAlternatives": [] },
-        { "id": "q09_03", "zoomLevelUnlocked": 3, "text": "De que signo era María Sánchez de Thompson?", "answer": "Escorpio", "answerAlternatives": [] },
-        { "id": "q09_04", "zoomLevelUnlocked": 4, "text": "Cual es el partizip II de 'quellen'", "answer": "gequollen", "answerAlternatives": [] }
+        { "id": "q09_01", "zoomLevelUnlocked": 1, "text": "¿En qué país nació Maria Montessori?", "answer": "Italia", "answerAlternatives": [] },
+        { "id": "q09_02", "zoomLevelUnlocked": 2, "text": "¿Cuando se conmemora el dia de la Independencia en Argentina?", "answer": "9 de Julio", "answerAlternatives": [] },
+        { "id": "q09_03", "zoomLevelUnlocked": 3, "text": "¿De qué signo era María Sánchez de Thompson?", "answer": "Escorpio", "answerAlternatives": [] },
+        { "id": "q09_04", "zoomLevelUnlocked": 4, "text": "¿Cual es el partizip II de 'quellen'?", "answer": "gequollen", "answerAlternatives": [] }
       ]
     }
   ],
