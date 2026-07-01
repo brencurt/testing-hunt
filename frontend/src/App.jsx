@@ -128,6 +128,7 @@ export default function App() {
         {view === 'win' && (
           <WinPage
             finalMessage={winMessage || meta?.finalMessage || '¡Feliz cumpleaños!'}
+            finalHighlight={meta?.finalHighlight}
             onRestart={handleRestart}
           />
         )}

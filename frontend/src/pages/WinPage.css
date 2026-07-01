@@ -7,11 +7,6 @@
   padding: 40px 0;
 }
 
-.win-confetti {
-  font-size: 3rem;
-  animation: bounce 1s ease infinite alternate;
-}
-
 @keyframes bounce {
   from { transform: scale(1); }
   to   { transform: scale(1.15); }
@@ -20,8 +15,8 @@
 .win-photo {
   width: 180px;
   height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
+  object-fit: contain;
+  animation: bounce 1s ease infinite alternate;
 }
 
 .win-title {
@@ -41,6 +36,12 @@
   border-radius: 16px;
   padding: 20px;
   border: 1px solid #f0c8b0;
+}
+
+.win-highlight {
+  color: #da6c46;
+  font-weight: 800;
+  font-size: 1.1rem;
 }
 
 .win-restart-btn {
