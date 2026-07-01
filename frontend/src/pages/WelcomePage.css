@@ -10,8 +10,8 @@
 }
 
 .welcome-img {
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: auto;
   object-fit: contain;
   margin-bottom: 20px;
   animation: bounce 1s ease infinite alternate;
