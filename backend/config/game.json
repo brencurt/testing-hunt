@@ -14,7 +14,7 @@
       "qrCode": "stop00",
       "imageFile": "stop00.png",
       "hint": "Preguntale a Sabri",
-      "successNote": "Y ya que estamos nos podemos tomar un birrin como aquella vez :-)",
+      "successNote": "¡Y ya que estamos nos podemos tomar un birrin como aquella vez! 🍺",
       "questions": [
         { "id": "q00_01", "zoomLevelUnlocked": 1, "text": "¿A qué filosofo se le atribuye 'La Duda Metódica'?", "answer": "Rene Descartes", "answerAlternatives": [] },
         { "id": "q00_02", "zoomLevelUnlocked": 2, "text": "¿Cómo se llamaba la banda que tenía Barbi Recanati?", "answer": "Utopians", "answerAlternatives": [] },
