@@ -62,7 +62,7 @@
       "internalNotes": "",
       "qrCode": "stop03",
       "imageFile": "stop03.png",
-      "hint": "Preguntale a Vicky",
+      "hint": "Preguntale a Ceci",
       "questions": [
         { "id": "q03_01", "zoomLevelUnlocked": 1, "text": "¿Qué número de julio cumple Malena Pichot?", "answer": "6", "answerAlternatives": [] },
         { "id": "q03_02", "zoomLevelUnlocked": 2, "text": "¿Cuál es el planeta más grande del sistema solar?", "answer": "Júpiter", "answerAlternatives": [] },
@@ -77,7 +77,7 @@
       "internalNotes": "",
       "qrCode": "stop04",
       "imageFile": "stop04.png",
-      "hint": "Preguntale a Georgi",
+      "hint": "Preguntale a Panky",
       "successNote": "¡De paso nos subimos al U-Bahn!",
       "questions": [
         { "id": "q04_01", "zoomLevelUnlocked": 1, "text": "¿Qué animal representa al 'Deportivo Morón'?", "answer": "Gallito", "answerAlternatives": ["Un gallo"] },
@@ -93,7 +93,7 @@
       "internalNotes": "",
       "qrCode": "stop05",
       "imageFile": "stop05.png",
-      "hint": "Preguntale a Manu",
+      "hint": "Preguntale a Georgi",
       "successNote": "¡Y de paso si andamos con hambre, comemos algo!",
       "questions": [
         { "id": "q05_01", "zoomLevelUnlocked": 1, "text": "¿Dónde pasamos la Navidad 2022?", "answer": "Chamonix", "answerAlternatives": [] },
@@ -109,7 +109,7 @@
       "internalNotes": "",
       "qrCode": "stop06",
       "imageFile": "stop06.png",
-      "hint": "Preguntale a Ceci",
+      "hint": "Preguntale a Vicky",
       "successNote": "¡Y quizás nos llevamos un birrin para el camino que queda!",
       "questions": [
         { "id": "q06_01", "zoomLevelUnlocked": 1, "text": "¿A qué filosofa se le atribuye 'La razón Poética'?", "answer": "Maria Zambrano", "answerAlternatives": [] },
@@ -125,7 +125,7 @@
       "internalNotes": "",
       "qrCode": "stop07",
       "imageFile": "stop07.png",
-      "hint": "Preguntale a Panky",
+      "hint": "Preguntale a Manu",
       "questions": [
         { "id": "q07_01", "zoomLevelUnlocked": 1, "text": "¿Qué color se obtiene al mezclar magenta y amarillo?", "answer": "Rojo", "answerAlternatives": [] },
         { "id": "q07_02", "zoomLevelUnlocked": 2, "text": "¿Cómo se llama la obra de Artemisia Gentileschi que está en la Galeria degli Uffizi?", "answer": "Judit decapitando a Holofernes", "answerAlternatives": [] },
