@@ -1,0 +1,14 @@
+backend/config/game.json
+  h_cd54c7e1f1ac27 65,80,96,112,128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.9",
+  "base_commit_sha": "7a55be7dd82a6b5608634b9c2f0ab94d8fd7695c",
+  "prompts": {},
+  "humans": {
+    "h_cd54c7e1f1ac27": {
+      "author": "Brenda Denisse Curtich <bdcurtich@gmail.com>"
+    }
+  }
+}
